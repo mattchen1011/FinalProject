@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購物車/鏡式</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      
+    </script>
+</head>
+<body>
+    <header>
+      <nav>  <!--選單-->
+        <div class="top_column">
+
+          <div class="logo_section">
+            <a href="index.html">
+              <img class="logo" src="images/icon/LOGO.png">
+            </a>
+          </div>
+
+          <div class="nav_section">
+            <a href="index.html">首頁</a>
+            <a href="AllProduct.html">商品專區</a>
+            <a href="MemberInfo.html">會員專區</a>
+            <a href="AboutUs.html">關於我們</a>
+          </div>
+
+          <div class="function_section">
+            <div class="search_section"><!--搜尋欄-->
+              <form class="search"  action="">
+                <div class="search">
+                  <input type="text" class="search" placeholder="找商品" name="search">
+                </div>
+                <div class="search_icon">
+                  <button type="submit">
+                    <img class="search_img" src="images/icon/searcher.png">
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div class="cart_section"><!--購物車-->
+              <a href="Cart.html">
+                <img class="cart" src="images/icon/cart.png">
+              </a>
+            </div>
+
+            <div class="member_section">
+              <a href="Login.html"><!--會員登入-->
+                <img class="member" src="images/icon/member.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main> 
+      <article>
+        <section>
+          <h1 class="t14">
+              購物車
+          </h1>
+          <div class="l2">
+              <table style="margin: auto;">
+                  <tr>
+                      <th class="t15">商品品項</th>
+                      <th class="t16">單價</th>
+                      <th class="t17">數量</th>
+                      <th class="t18">總計</th>
+                      <th class="t19">清除</th>
+                  </tr>
+              </table>
+              <table class="ta1">
+                   <tr>
+                      <th class="cp1"><img src="images/product/glass/glass1/S__22994963.jpg" class="p3"><br>John Dillinger<br>JD2049B-2A C1</th>
+                      <th class="cp2">NT$3,490</th>
+                      <th class="cp3"><input type="number" id="tentacles" name="tentacles" value="1" min="1" max="100"></th>
+                      <th class="cp4">NT$3,490</th>
+                      <th class="cp5"><button class="b6" onclick="deleteTR()">刪除</button></th>
+                   </tr>
+              </table>
+              <table class="ta1">
+                  <tr>
+                      <th class="cp1"><img src="images/product/glass/glass2/S__22994966.jpg" class="p3"><br>John Dillinger<br>JD2018-J C1</th>
+                      <th class="cp2">NT$2,490</th>
+                      <th class="cp3"><input type="number" id="tentacles" name="tentacles" value="1" min="1" max="100"></th>
+                      <th class="cp4">NT$2,490</th>
+                      <th class="cp5"> <button @click=”handledelete(index)” class="b6">刪除</button></th>
+                  </tr>
+              </table>
+              <div class="ch1">
+                  取件方式:    
+                  <input type="radio" name="SendWay" value="7-11取貨" checked/>7-11取貨&nbsp;
+                  <input type="radio" name="SendWay" value="全家取貨" />全家取貨&nbsp;
+              </div>
+              <div class="ch1">
+                  付款方式:    
+                  <input type="radio" name="PayWay" value="貨到付款" checked/>貨到付款&nbsp;
+                  <input type="radio" name="PayWay" value="信用卡/金融卡" />信用卡/金融卡&nbsp;
+                  <input type="radio" name="PayWay" value="銀行轉帳" />轉帳
+              </div>
+              <div>
+                  <table class="pl1">
+                      <tr>
+                          <th class="pl2">商品總金額:</th>
+                          <th class="pl2">NT$5,980</th>
+                      </tr>
+                      <tr>
+                          <th class="pl2">運費:</th>
+                          <th class="pl2">NT$30</th>
+                      </tr>
+                  </table>
+                  <table class="pl3">
+                      <tr>
+                          <th class="pl2">總付款金額:</th>
+                          <th class="pl2">NT$6,010</th>
+                      </tr>
+                  </table>
+              </div>
+              <div>
+                  <input type="submit" class="b7" value="結帳" >
+              </div>
+          </div>
+     </section>
+      </article>
+    </main>
+
+  <div class="clearfix"></div>
+
+    <footer>
+      <h4>Copyright @ 2022 鏡式 All Right Reserved.</h4>
+      <h4>Viewers:520</h4>
+    </footer>
+  </body>
+</html>

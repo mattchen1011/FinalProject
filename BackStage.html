@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>後台管理/鏡式</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <nav>  <!--選單-->
+        <div class="top_column">
+
+          <div class="logo_section">
+            <a href="index.html">
+              <img class="logo" src="images/icon/LOGO.png">
+            </a>
+          </div>
+
+          <div class="nav_section">
+            <a href="index.html">首頁</a>
+            <a href="AllProduct.html">商品專區</a>
+            <a href="MemberInfo.html">會員專區</a>
+            <a href="AboutUs.html">關於我們</a>
+          </div>
+
+          <div class="function_section">
+            <div class="search_section"><!--搜尋欄-->
+              <form class="search"  action="">
+                <div class="search">
+                  <input type="text" class="search" placeholder="找商品" name="search">
+                </div>
+                <div class="search_icon">
+                  <button type="submit">
+                    <img class="search_img" src="images/icon/searcher.png">
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div class="cart_section"><!--購物車-->
+              <a href="Cart.html">
+                <img class="cart"  src="images/icon/cart.png">
+              </a>
+            </div>
+
+            <div class="member_section">
+              <a href="Login.html"><!--會員登入-->
+                <img class="member"  src="images/icon/member.png">
+              </a>
+            </div>
+          </div>
+          
+          
+
+        </div>
+      </nav>
+    </header>
+    
+    
+
+    <main>
+      <section class="Product_card float_left">
+        <div class="subtitle">
+          <div class="cnsubtitle">
+            <h2>後台管理</h2>
+          </div>
+        </div>
+        <div class="memberarea">
+          <div class="member_title">
+            <a class="member_title">商品管理</a>
+            <hr>
+            <br>
+          </div>
+
+          <div class="form_area">
+            <form method="post" action="">
+              <table border=1 style="background-color: white;">
+                <tr>
+                  <td style="font-weight: bold;">商品照片</td>
+                  <td style="font-weight: bold;">商品<br>品牌</td>
+                  <td style="font-weight: bold;">商品<br>型號</td>
+                  <td style="font-weight: bold;">商品<br>價格</td>
+                  <td style="font-weight: bold;">商品介紹</td>
+                  <td style="font-weight: bold;">庫存<br>數量</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><img src="images/product/sun/sun6/S__22995041.jpg" width="200px"></td>
+                  <td>KlassiC.</td>
+                  <td>KC9132</td>
+                  <td>$2980</td>
+                  <td>KlassiC. HANDMADE. - KC9132
+                      ● 鎳銅合金，手工鏡框
+                      ● 鏡框鏤空斜邊，鼻橋精細品牌字
+                      ● 鏡腿半圓填色工藝
+                
+                      百搭的全臉型攻略，金屬框墨鏡首推！ 靈感來自率性隨機的好萊塢名人街拍， 有點經典，有點設計感的氛圍，一種不經意的好品味。 蛋圓框型搭配精緻化細節， 在滿街的百搭低調款中，顯得很有質感。
+                
+                      設計特色：
+                      1.鏡框鏤空斜邊，平衡框型不過圓胖
+                      2.鼻橋精細品牌字
+                      3.鏡腿半圓填色工藝</td>
+                  <td>1000</td>
+                  <td><input  type="button" value="修改" style="font-size: 22px; background-color: lightgray ;"></td>
+                </tr>
+              </table>
+            </form>
+            
+          </div>
+        </div>
+        
+        
+      </section>  
+
+      <aside><!--側邊選單-->
+        <div>
+          <a href="MemberInfo.html" class="item_txt" style="font-size: 25px; color: black; font-weight: bold; text-decoration: underline;">會員資料</a>
+        </div>
+        <div>
+          <a href="Order.html" class="item_txt" style="font-size: 25px; color: black;  font-weight: bold; text-decoration: underline;">訂單紀錄</a>
+        </div>
+        <div>
+          <a href="Comment.html" class="item_txt" style="font-size: 25px; color: black;  font-weight: bold; text-decoration: underline;">評論紀錄</a>
+        </div>
+        
+    
+      </aside>
+
+      <div class="clearfix"></div>
+
+    </main>
+    
+
+    <div class="clearfix"></div>
+
+    <footer>
+      <h4>Copyright @ 2022 鏡式 All Right Reserved.</h4>
+      <h4>Viewers:520</h4>
+    </footer>
+  </body>
+</html>

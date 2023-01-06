@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員登入/鏡式</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <nav>  <!--選單-->
+        <div class="top_column">
+
+          <div class="logo_section">
+            <a href="index.html">
+              <img class="logo" src="images/icon/LOGO.png">
+            </a>
+          </div>
+
+          <div class="nav_section">
+            <a href="index.html">首頁</a>
+            <a href="AllProduct.html">商品專區</a>
+            <a href="MemberInfo.html">會員專區</a>
+            <a href="AboutUs.html">關於我們</a>
+          </div>
+
+          <div class="function_section">
+            <div class="search_section"><!--搜尋欄-->
+              <form class="search"  action="">
+                <div class="search">
+                  <input type="text" class="search" placeholder="找商品" name="search">
+                </div>
+                <div class="search_icon">
+                  <button type="submit">
+                    <img class="search_img" src="images/icon/searcher.png">
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div class="cart_section"><!--購物車-->
+              <a href="Cart.html">
+                <img class="cart"  src="images/icon/cart.png">
+              </a>
+            </div>
+
+            <div class="member_section">
+              <a href="Login.html"><!--會員登入-->
+                <img class="member"  src="images/icon/member.png">
+              </a>
+            </div>
+          </div>
+          
+          
+
+        </div>
+      </nav>
+    </header>
+    
+    
+
+    <main>
+      <section class="Product_card" style="width: 95%;">
+        <div class="subtitle">
+          <div class="cnsubtitle">
+            <h2></h2>
+          </div>
+        </div>
+        <div class="memberarea">
+          <div class="member_title">
+            <a class="member_title">會員登入</a>
+            <hr>
+            <br>
+          </div>
+
+          <div class="form_area">
+            <form method="post" action="sign.jsp">
+              帳號：<input type="text" name="account"><br>
+              密碼：<input type="password" name="password"><br> 
+              <input class="form_button" type="submit" value="登入" style="font-size: 22px;">
+              <input class="form_button" type="reset" value="取消" style="font-size: 22px;"><br>
+              <a style="font-size: 20px;">還沒註冊嗎?</a>
+              <a href="Register.html" style="font-size: 15px">點我馬上註冊</a>
+            </form>
+            
+          </div>
+        </div>
+        
+        
+      </section>  
+
+      
+
+      <div class="clearfix"></div>
+
+    </main>
+    
+
+    <div class="clearfix"></div>
+
+    <footer>
+      <h4>Copyright @ 2022 鏡式 All Right Reserved.</h4>
+      <h4>Viewers:520</h4>
+    </footer>
+  </body>
+</html>
